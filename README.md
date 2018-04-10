@@ -9,7 +9,6 @@ Use `make build` and `make run` to build the image and start a container from it
 ## Starting a new tmux session
 
 The first user that connects to the SSH server has to execute `tmux new -s yolo` to create a new shared tmux session.
-# tmux new -s myname
 
 ## Attaching to an existing session
 
@@ -17,5 +16,5 @@ Use `tmux a` to attach to the previously created session. This will be performed
 
 ## Persistence
 
-By default, the folder `data` will get mounted into the container to persist created data.
+By default, the folder `./data` will get mounted into the container to persist created data.
 
