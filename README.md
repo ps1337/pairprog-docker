@@ -1,5 +1,7 @@
 # Easy Remote Pair Programming Using Docker and Tmux
 
+[![Build Status](https://travis-ci.org/ps1337/pairprog-docker.png?branch=master)](https://travis-ci.org/ps1337/pairprog-docker)
+
 This Ubuntu based container provides an easy-to-use Server to perform remote pair programming. It uses password authentication via SSH.
 
 ## Getting started
